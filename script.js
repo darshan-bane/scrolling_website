@@ -11,14 +11,23 @@ tl.to("#fanta",{
     left: "0%",
     // zIndex:"5"
 }, 'orange')
+
+tl.to("#orange_slice",{
+    top: "160%",
+    left: "20%",
+    width: "20%"
+}, 'orange')
+
 tl.to("#leaf",{
     top: "120%",
     left: "100%",
     rotate: "0deg"
 }, 'orange')
+
 tl.to("#fanta_head",{
     zIndex:"0"
 }, 'orange')
+
 
 
 var tl = gsap.timeline({scrollTrigger:{
@@ -59,4 +68,10 @@ tl2.to("#leaf",{
     top: "269%",
     left: "30%",
     rotate: "50deg"
+}, 'ca')
+
+tl2.to("#orange_slice",{
+    top: "266%",
+    left: "52%",
+    width: "20%"
 }, 'ca')

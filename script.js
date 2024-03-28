@@ -53,6 +53,7 @@ var tl2 = gsap.timeline({scrollTrigger:{
 tl2.to("#fanta",{
     top: "220%",
     left: "58%",
+    // scale: "3"
     // zIndex:"5"
 }, 'ca')
 tl2.to("#leaf",{

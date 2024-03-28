@@ -1,3 +1,16 @@
+// var tl0 = gsap.timeline({scrollTrigger:{
+//     trigger: ".sec1",
+//     start: "0% 95%",
+//     end: "70% 50%",
+//     scrub: true,
+//     // markers: true,
+// }})
+// tl0.to("#goli",{
+//     left: "60%"
+// }, 'dd')
+
+
+
 var tl = gsap.timeline({scrollTrigger:{
     trigger: ".sectwo",
     start: "0% 95%",
@@ -15,7 +28,7 @@ tl.to("#fanta",{
 tl.to("#orange_slice",{
     top: "160%",
     left: "20%",
-    width: "20%"
+    width: "20%",
 }, 'orange')
 
 tl.to("#leaf",{
@@ -23,34 +36,12 @@ tl.to("#leaf",{
     left: "100%",
     rotate: "0deg"
 }, 'orange')
-
-tl.to("#fanta_head",{
-    zIndex:"0"
+tl.to("#goli",{
+    top: "200%",
+    left:"50%"
 }, 'orange')
 
 
-
-var tl = gsap.timeline({scrollTrigger:{
-    trigger: ".sectwo",
-    start: "0% 95%",
-    end: "70% 50%",
-    scrub: true,
-    // markers: true,
-}})
-
-tl.to("#fanta",{
-    top: "120%",
-    left: "0%",
-    // zIndex:"5"
-}, 'orange')
-tl.to("#leaf",{
-    top: "120%",
-    left: "100%",
-    rotate: "0deg"
-}, 'orange')
-tl.to("#fanta_head",{
-    zIndex:"0"
-}, 'orange')
 
 var tl2 = gsap.timeline({scrollTrigger:{
     trigger: ".sec3",

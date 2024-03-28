@@ -132,6 +132,7 @@ nav a{
     position: absolute;
     width: 35%;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    z-index: 2;
 }
 #leaf{
     top: 0%;
@@ -140,6 +141,12 @@ nav a{
     transform: rotate(50deg);
     position: absolute;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#goli{
+    position: absolute;
+    width: 5%;
+    margin-top: -27%;
+    z-index: 0;
 }
 #orange_slice{
     z-index: 10;
